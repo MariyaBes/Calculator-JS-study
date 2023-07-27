@@ -179,5 +179,271 @@ a {
     justify-content: center;
     align-items: flex-start;
     gap: 17px;
+    margin-left: 29px;
+    margin-top: 15px;
     flex-shrink: 0;
+}
+
+.menu {
+    flex-direction: column;
+    width: 254px;
+    height: 597px;
+    border-right: 1px solid #E0E0E0;
+}
+
+.inputs-enter {
+    display: flex;
+    width: 510px;
+    height: 597px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.last {
+    flex-direction: column;
+    width: 254px;
+    height: 597px;
+    border-left: solid 1px #E0E0E0;
+}
+
+
+
+
+
+.menu_burger {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.TitleCalc {
+    color: var(--dark-text-title);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.iconBurg,
+.TitleCalc:hover {
+    color: #64748b;
+}
+
+.tab {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.tabOne,
+.tabTwo, .tabThree {
+    display: flex;
+    cursor: pointer;
+    width: 227px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.tabOne:hover,
+.tabTwo:hover, .tabThree:hover {
+    background: var(--light-grey);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10);
+    transition: ease-in 0.3s;
+    transition: ease-out 0.2s;
+}
+
+.tabDesc {
+    right: 0px;
+
+    color: #3F2E3E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.inputs-enter {
+    display: flex;
+    width: 510px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.input {
+    display: flex;
+    height: 112px;
+    padding: 26px 30px 25px 363px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: rgba(229, 231, 235, 0.50);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10) inset;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px;
+}
+
+.secondRes {
+    color: #3F2E3E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mainRes {
+    color: #331D2C;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 289px;
+    height: 370px;
+}
+
+.knopk {
+    display: flex;
+    width: 70px;
+    cursor: pointer;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--light-grey);
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.07) inset;
+}
+
+.knopk:hover {
+    background: var(--light-dark-gray);
+}
+
+.knopkCk {
+    display: flex;
+    cursor: pointer;
+    width: 143px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-shrink: 0;
+    background: var(--light-grey);
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.07) inset;
+}
+
+.knopkCk:hover {
+    background: var(--light-dark-gray);
+}
+
+
+.str {
+    display: flex;
+    width: 289px;
+    height: 70px;    
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.belKnop {
+    display: flex;
+    width: 70px;
+    cursor: pointer;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.07) inset;
+}
+
+.belKnop:hover {
+    background: #f9fafb;
+}
+
+.numberItem {
+    color: #3F2E3E;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 122.9%; /* 31.954px */
+}
+
+.number_table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.memory {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 55px;
+    width: 255px;
+    gap: 40px;
+}
+
+.Jurn,
+.Mem {
+    color: #3F2E3E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.Jurn:hover,
+.Mem:hover {
+    border-bottom: solid 1px #331D2C;
+}
+
+.Jurn:active,
+.Mem:active {
+    border-bottom: solid 1px #331D2C;
+}
+
+.lastActive {
+    display: flex;
+    height: 540px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.lastTitle {
+    color: #3F2E3E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
